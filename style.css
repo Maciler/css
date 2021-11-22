@@ -1,0 +1,134 @@
+body {
+  width: 100vw;
+  height: 100vh;
+}
+.page1 {
+    background-image: url("images\desktop\image-header.jpg");
+}
+.card-img-top {
+    border-radius: 50%!important;
+    max-width: 4rem;
+}
+.page1-bg {
+    background-image: url("images/desktop/image-header.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .nav-item:hover {
+    color: black;
+    background-color: white;
+    border-radius: 4rem;
+  }
+  .nav-link {
+      font-weight: bold;
+      color: white ;
+  }
+  .nav-link:hover {
+    color: black;
+   
+  }
+
+  .p {
+      font-family: "Barlow";
+  }
+  title {
+      font-weight: 700;
+      font-family: "Fraunces";
+      
+  }
+  .home {
+    grid-template-columns: 12px 12px 12px;
+    grid-template-rows: 12px 12px 12px;
+  }
+
+  *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: sans-serif;
+    font-size: 18px;
+    width: 100%;
+    min-height: 100vh;
+  }
+
+  [class^="box-0"] {
+  /* background-color: yellow; */
+  /* To place the letter at the center */
+    display: grid;
+    place-items: center;
+  }
+ 
+  .container {
+    display: grid !important;
+    gap: 20px !important;
+    height: 100vh !important;
+    width: 100vw !important;
+  
+    grid-template-areas: 
+    "A A A A   A A A A   A A A A"
+    "B B B B   B B B B   B B B B"
+    "C C C C   C C C C   C C C C" !important;
+  }
+  .box-1{
+    grid-area: A !important;
+  }
+  .box-2{
+    grid-area: B !important;
+  }
+  .box-3{
+    grid-area: C !important;
+  }
+  .cont {
+    display: grid;
+    gap: 20px;
+    height: 100vh;
+   
+    grid-template-areas: 
+    
+    "A A A A   A A B B   B B B B"
+    "C C C C   C C D D   D D D D"
+    "E E E E   E E F F   F F F F" !important;
+  }
+  .box-0{
+    grid-area: A;
+    background-color: white;
+  }
+  .box-00{
+    grid-area: B;
+    
+  }
+  img {
+    object-fit: cover !important;
+    width: 100% !important;
+    max-height: 100% !important;
+  }
+  
+  .box-000{
+    grid-area: C;
+  }
+  .box-0000{
+    grid-area: D;
+  }
+  .box-00000{
+    grid-area: E;
+  }
+  .box-000000{
+    grid-area: F;
+  }
+  .cont2 {
+    display: grid;
+    gap: 20px;
+    height: 100vh;
+  
+  /*  Change the values     👇 to experiment */
+    grid-template-rows: repeat(2, 1fr); 
+
+  }

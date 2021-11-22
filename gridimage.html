@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            .proj-grid {
+        display: grid;
+      
+        grid-template-areas:
+          "featured featured mini1"
+          "featured featured mini2";
+      
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 1rem;
+      }
+      
+      .featured {
+        grid-area: featured;
+        overflow: hidden;
+      }
+      
+      .mini1 {
+        grid-area: mini1;
+      }
+      
+      .mini2 {
+        grid-area: mini2;
+      }
+      
+      img {
+        display: block;
+        height: 100%;
+        width: auto;
+      }
+    </style>
+</head>
+<body>
+    
+
+      <div class="proj-grid">
+          <div class="featured"><img src="https://via.placeholder.com/300x150" alt=""></div>
+          <div class="mini1"><img src="https://via.placeholder.com/300x150" alt=""></div>
+          <div class="mini2"><img src="https://via.placeholder.com/300x150" alt=""></div>
+      </div>
+
+</body>
+</html>

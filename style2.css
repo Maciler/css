@@ -1,0 +1,82 @@
+/* .d1{background:LightSkyBlue;}
+.d2{background:LightSalmon;}
+.d3{background:PaleTurquoise;}
+.d4{background:LightPink;}
+.d5{background:PaleGreen;}
+.d6{background:Yellow;}  
+.d7{background:Orange;}  
+.d8{background:white;}
+.d9{background:blue;} */
+body {
+    width: 100vw;
+    height: 100vh;
+  }
+.contained {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+
+}
+.contained h4{
+  font-family: Fraunces;
+  font-weight: 700;
+}
+.contained p{
+  font-size: 0.9rem;
+}
+.more{
+    text-decoration: underline;
+    text-decoration-color: hsl(51, 100%, 49%);
+}
+.more2{
+  text-decoration: underline;
+  text-decoration-color: hsl(7, 99%, 70%);
+}
+
+  .con {
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+
+}
+.header{
+    background-image: url("images/desktop/image-header.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+.font-1{
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 1.2;
+    font-family: 'Fraunces', serif;
+    
+}
+.nav-link {
+    font-weight: bold;
+    color: white ;
+    padding: 10px 30px 10px 30px;
+
+}
+.nav-link:hover {
+  color: black;
+  background-color: white;
+  border-radius: 4rem; 
+}
+
+.foot{
+  color: hsl(168, 34%, 41%);
+  background-color: hsl(167, 44%, 70%);
+  
+
+}
+.sunny{
+  font-weight: 950 !important;
+  font-size: 3.0rem !important;
+  font-family: Fraunces;
+}
